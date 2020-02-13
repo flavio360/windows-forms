@@ -1,0 +1,17 @@
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\bin\Release\Impacta.Alunos.UI.exe.config
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\bin\Release\Impacta.Alunos.UI.exe
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\bin\Release\Impacta.Alunos.UI.pdb
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.csprojAssemblyReference.cache
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.formCalculadoraTabuada.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.frmCalculaFrete.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.frmLogin.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.frmPrincipal.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.frmSobre.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.frmLab7.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.frmOrientacaoObejtosVeiculo.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.Properties.Resources.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.View.frmEstudoMetodos.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.View.LeituraArquivo.resources
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.csproj.GenerateResource.cache
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.exe
+C:\Users\flavio\Dropbox\Aula4\Impacta.Alunos.UI\Impacta.Alunos.UI\obj\Release\Impacta.Alunos.UI.pdb

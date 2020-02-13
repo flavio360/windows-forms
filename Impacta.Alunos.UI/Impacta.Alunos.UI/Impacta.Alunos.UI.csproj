@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51DDB4D7-DD31-4986-918C-B3531F0AC5C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Impacta.Alunos.UI</RootNamespace>
+    <AssemblyName>Impacta.Alunos.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculadoraTabuada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculadoraTabuada.Designer.cs">
+      <DependentUpon>CalculadoraTabuada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Cliente.cs" />
+    <Compile Include="Controles\Funcionario.cs" />
+    <Compile Include="Controles\PessoaBase.cs" />
+    <Compile Include="frmCalculaFrete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculaFrete.Designer.cs">
+      <DependentUpon>frmCalculaFrete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\RemoverCaracteresEspeciais.cs" />
+    <Compile Include="OrientacaoObjetos\AutoVeiculo.cs" />
+    <Compile Include="OrientacaoObjetos\Enumeradores.cs" />
+    <Compile Include="OrientacaoObjetos\frmLab7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrientacaoObjetos\frmLab7.Designer.cs">
+      <DependentUpon>frmLab7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrientacaoObjetos\frmOrientacaoObejtosVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrientacaoObjetos\frmOrientacaoObejtosVeiculo.Designer.cs">
+      <DependentUpon>frmOrientacaoObejtosVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.Designer.cs">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrientacaoObjetos\Aviao.cs" />
+    <Compile Include="OrientacaoObjetos\Caminhao.cs" />
+    <Compile Include="OrientacaoObjetos\Carro.cs" />
+    <Compile Include="OrientacaoObjetos\ICadastro.cs" />
+    <Compile Include="OrientacaoObjetos\ICaminhao.cs" />
+    <Compile Include="OrientacaoObjetos\ICarro.cs" />
+    <Compile Include="OrientacaoObjetos\MetodosDeExtensao.cs" />
+    <Compile Include="OrientacaoObjetos\Veiculo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\frmEstudoMetodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmEstudoMetodos.Designer.cs">
+      <DependentUpon>frmEstudoMetodos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LeituraArquivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LeituraArquivo.Designer.cs">
+      <DependentUpon>LeituraArquivo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CalculadoraTabuada.resx">
+      <DependentUpon>CalculadoraTabuada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculaFrete.resx">
+      <DependentUpon>frmCalculaFrete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrientacaoObjetos\frmLab7.resx">
+      <DependentUpon>frmLab7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrientacaoObjetos\frmOrientacaoObejtosVeiculo.resx">
+      <DependentUpon>frmOrientacaoObejtosVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\frmEstudoMetodos.resx">
+      <DependentUpon>frmEstudoMetodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LeituraArquivo.resx">
+      <DependentUpon>LeituraArquivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_icon-icons.com_50442.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireexitrunwayhumanpictogram_109801.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-silhouette-security-tool-interface-symbol-of-password_icon-icons.com_54503.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout256_24927.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_57783.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-light-bulb_icon-icons.com_70427.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police-walkie-talkie-with-white-lines_icon-icons.com_70414.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tall-human-silhouette_icon-icons.com_70362.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_icon-icons.com_504421.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireexitrunwayhumanpictogram_1098011.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-computer-4341285_120548.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-eye-4341288_120560.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-file-4341289_120551.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-filter-4341290_120561.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-gamepad-4341293_120527.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-home-4341294_120570.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-idea-4341295_120562.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-info-4341298_120528.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-key-4341299_120569.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-settings-4341324_120534.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-star-4341322_120554.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-trash-4341321_120557.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-silhouette-security-tool-interface-symbol-of-password_icon-icons.com_545031.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout256_249271.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_577831.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-light-bulb_icon-icons.com_704271.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\police-walkie-talkie-with-white-lines_icon-icons.com_704141.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tall-human-silhouette_icon-icons.com_703621.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
